@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.information-column {
+    padding: 40px;
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid #008000;
+    margin-top: 18px;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #008000;
+    margin-bottom: 18px;
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul {
+    list-style-type: none;
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.contact-description a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact-description i {
+    color: #008000;
+    margin-right: 10px;
+}
+
+.education-description {
+    margin-top: 32px;
+}
+
+.education-description p {
+    color: #008000;
+}
+
+.language-description .percent {
+    height: 6px;
+    background-color: #008000;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.language-description .percent div {
+    height: 6px;
+    background-color: #32cd32;
+}
+
+.language-description .percent.english div {
+    width: 70%;
+}
+
+.language-description .percent.spanish div {
+    width: 50%;
+}
+
+.eperiences-column {
+    background-color: #FFF;
+    padding: 40px;
+    color: #000000;
+}
+
+.eperiences-column section {
+    margin-bottom: 30px;
+}
+
+.eperiences-column h2 {
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #000000, #00ff00,
+            #000000, #00ff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.eperiences-column h3 {
+    background: linear-gradient(to right, #000000, #00ff00,
+            #000000, #00ff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.eperiences-column h4 {
+    background: linear-gradient(to right, #000000, #00ff00,
+            #000000, #00ff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.eperiences-column .experience {
+    margin-bottom: 14px;
+}
+
+.eperiences-column a {
+    text-decoration: underline;
+    color: #000;
+    animation: underlines 5s infinite;
+}
+
+.eperiences-column .last-date {
+    text-align: right;
+}
+
+@media (min-width: 922px) {
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .eperiences-column .experience {
+        display: flex;
+    }
+
+    .experience-date {
+        min-width: 160px;
+    }
+}
+
+@keyframes underlines {
+    50% {
+        text-decoration-color: #00ff00;
+    }
+}
