@@ -24,8 +24,8 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 1px solid #008000;
     margin-bottom: 18px;
+    animation: png 40s infinite alternate;
 }
 
 .information-column h3 {
@@ -148,5 +148,31 @@
 @keyframes underlines {
     50% {
         text-decoration-color: #00ff00;
+    }
+}
+
+@keyframes png {
+    0% {
+        background-color: #000;
+    }
+
+    20% {
+        background-color: #00ff0052;
+    }
+
+    40% {
+        background-color: #0000ff52;
+    }
+
+    60% {
+        background-color: #00000052;
+    }
+
+    80% {
+        background-color: #00ff0052;
+    }
+
+    100% {
+        background-color: #0000ff52;
     }
 }
